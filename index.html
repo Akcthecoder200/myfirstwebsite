@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webpage grid</title>
+    <style>
+      body {
+        background-color: white;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .navbar {
+        display: flex;
+        /* width: 45vw; */
+      }
+      .index {
+        display: flex;
+
+        align-items: center;
+        gap: 20px;
+
+        /* justify-content: flex-end; */
+        justify-content: space-around;
+      }
+      .content {
+        color: aqua;
+      }
+      .logo {
+        background-image: url("https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png");
+      }
+      .grid {
+        display: grid;
+        width: 70vw;
+        height: 50vh;
+        flex-direction: row;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 30px;
+        justify-content: center;
+      }
+      .gridbox {
+        /* border: 2px solid black; */
+        background-color: #f9f9f9;
+        display: flex;
+        padding-top: 7px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        height: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .gridbox1 {
+        background-color: #f9f9f9;
+        display: flex;
+        padding-top: 7px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 60px;
+        flex-direction: column;
+        height: 150px;
+      }
+      .wholegrid {
+        display: flex;
+        justify-content: center;
+      }
+      .bit32 {
+        border: 2px solid black;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+
+        background-color: #00b6d1;
+      }
+      .bit64 {
+        border: 2px solid black;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+
+        background-color: #5cb85c;
+      }
+
+      .English {
+        text-align: center;
+      }
+      .bitdetails {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .German {
+        text-align: center;
+      }
+      h5 {
+        font-weight: 200;
+      }
+      .version {
+        font-weight: 100;
+      }
+      .hotflix{
+        text-decoration: none;
+        color: black;
+      }
+      .versionhot{
+        display: flex;
+        /* justify-content:center; */
+        padding-left: 215px;
+
+      }
+      .duverhot{
+        padding: 10px;
+        word-wrap: break-word;
+        padding-top: 5px ;
+      }
+      .page{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .downulta{
+       font-size: 50px;
+      }
+      .part2{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .wpart2{
+        display: flex;
+        flex-direction: column;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+      }
+      .downmac{
+        border: 2px solid blue;
+        padding: 15px;
+        display: flex;
+        width:fit-content;
+        border-radius: 3px;
+        text-decoration: none;
+        color:black;
+        background-color:#09a6bd;
+        font-weight: 500;
+        flex-direction: row;
+        align-self: center;
+        /* padding: 15px; */
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+    <div class="container">
+      <p class="navbar">
+        <img
+          src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp"
+          alt="logo"
+        />
+      </p>
+      <div class="index">
+        <p class="box">
+          Product
+          <img
+            src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png"
+            alt=""
+            height="10px"
+            width="10px"
+          />
+        </p>
+        <p class="box">
+          Pricing
+          <img
+            src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png"
+            alt=""
+            height="10px"
+            width="10px"
+          />
+        </p>
+        <p class="box">
+          Resource
+          <img
+            src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png"
+            alt=""
+            height="10px"
+            width="10px"
+          />
+        </p>
+        <p class="box">
+          About us
+          <img
+            src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png"
+            alt=""
+            height="10px"
+            width="10px"
+          />
+        </p>
+        <p class="box">
+          Security and compliance
+          <img
+            src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png"
+            alt=""
+            height="10px"
+            width="10px"
+          />
+        </p>
+
+        <img
+          src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png"
+          alt=""
+          height="15px"
+          width="15px"
+        />
+      </div>
+    </div>
+    <div class="wpart2">
+        <div class="part2">
+           <span class="downulta"> <strong>Download UltraEdit</strong> for Windows</span> 
+           <span><a href="https://www.g2.com/products/ultraedit/reviews/">
+            <img src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""></a></span> 
+            
+        </div>
+        <div style="text-align: center;"><h3>Download and try UltraEdit before you buy it! This download includes the full Windows </h3></div>
+        <div style="text-align: center;"><h3>version of the text editor.</h3></div>
+        <p class="downmac"><a  href="https://www.ultraedit.com/downloads/uex-thank-you/">DOWNLOAD MAC OR LINUX VERSION</a></p>
+        
+
+
+    </div>
+    <div class="versionhot">
+      <!-- <span class="logo"> -->
+        <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png" alt="ultraimglogo" height="80px" width="80px">
+      <p class="duverhot"
+        ><h3>
+          Download UltraEdit <small class="version"
+            >v2023.2(released 2023/12/15) |</small
+          ><a class="hotflix"
+          href="https://www.ultraedit.com/updates/uehotfix/"
+          >Hotfix</a
+        >
+        </h3></p
+      >
+    <!-- </span> -->
+    </div>
+    <div class="wholegrid">
+      <div class="grid">
+        <div class="gridbox1">
+          <h3 class="English">English</h3>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+        <div class="gridbox">
+          <h3 class="English">Deutsch</h3>
+          <h5 class="German">German</h5>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+        <div class="gridbox">
+          <h3 class="English">Italiano</h3>
+          <h5 class="German">Italian</h5>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+        <div class="gridbox">
+          <h3 class="English">Español</h3>
+          <h5 class="German">Spanish</h5>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+        <div class="gridbox">
+          <h3 class="English">français</h3>
+          <h5 class="German">French</h5>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+        <div class="gridbox">
+          <h3 class="English">Português brasileiro</h3>
+          <h5 class="German">Brazilian Portuguese</h5>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+        <div class="gridbox">
+          <h3 class="English">日本</h3>
+          <h5 class="German">Japanese</h5>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+        <div class="gridbox">
+          <h3 class="English">한국어</h3>
+          <h5 class="German">Korean</h5>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+        <div class="gridbox">
+          <h3 class="English">中国</h3>
+          <h5 class="German">Chinese</h5>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+        <div class="gridbox">
+          <h3 class="English">中國</h3>
+          <h5 class="German">Traditional Chinese</h5>
+          <span class="bitdetails">
+            <span class="bit32"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe"
+                >Download 32-bit</a
+              ></span
+            >
+            <span class="bit64"
+              ><a
+                href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe"
+                >Download 64-bit</a
+              ></span
+            >
+          </span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
